@@ -84,6 +84,7 @@ lint.ignore = [
     "E501",    # Pycodestyle - line too long
     "FA102",   # Flake8-future-annotations - Missing `from __future__ import annotations`, but uses PEP 604 union
     "FIX002",  # Flake8-fixme - FIXME comment found
+    "N803",    # PEP8 Naming - argument name should be lowercase
     "N806",    # PEP8 Naming - variable names should be lowercase
     "PLR0913", # Pylint - too many arguments in function
     "PLR0915", # Pylint - too many statements in function
