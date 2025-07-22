@@ -75,6 +75,7 @@ lint.ignore = [
     "D212",  # Pydocstyle - summary line should be immediately after the opening quotes.
     "D401",  # Pydocstyle - Checks for docstring first lines that are not in an imperative mood.
     "E501",  # Pycodestyle - line too long
+    "EM101", # Flake8-errmsg - Error message should not contain string literal
     "EM102", # Flake8-errmsg - Error message should not contain a colon
     "FA102", # Flake8-future-annotations - Missing `from __future__ import annotations`, but uses PEP 604 union
     # "FBT003",  # Flake8-boolean-trap - boolean position value in function call
