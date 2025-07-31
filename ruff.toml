@@ -90,5 +90,6 @@ lint.ignore = [
     "TD002",   # Flake8-todos - TODO comment found
     "TD003",   # Flake8-todos - TODO comment found in a test file
     "TRY003",  # Tryceratops - Avoid specifying long messages outside the exception class
+    "TRY301",  # Tryceratops - Avoid bare exceptions inside try blocks
     "W293",    # Pycodestyle - blank line contains whitespace
 ]
